@@ -17,7 +17,7 @@ image_url = "https://wpengine.com/wp-content/uploads/2021/05/optimize-images.jpg
 
 headers = {"User-Agent": "Mozilla/5.0"}
 response = requests.get(image_url, headers=headers)
-response.raise_for_status()  # Check that download succeeded
+response.raise_for_status() 
 
 image = Image.open(BytesIO(response.content)).convert("RGB")
 
