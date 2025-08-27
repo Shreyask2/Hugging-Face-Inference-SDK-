@@ -1,0 +1,5 @@
+/.env
+/hf-env
+/transformers_js_demo/node_modules
+/distilbert-imdb
+/results
